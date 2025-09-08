@@ -16,6 +16,7 @@ lifecycle = "2.6.1"
 coroutines = "1.7.0"
 retrofit = "2.9.0"
 navigation = "2.6.0"
+runtime = "1.9.0"
 
 
 
@@ -56,6 +57,7 @@ retrofit-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref 
 
 # Navigation
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+androidx-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "runtime" }
 
 
 
